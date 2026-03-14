@@ -9,7 +9,7 @@ Overview (from the spec)
 	Traditionally, OpenGL has treated resource management as a task of hardware
 	virtualization hidden from applications. While providing great portability,
 	this shielding of information can prevent applications from making
-	intelligent decisions on the management of resources they create. For
+	intelligent decs on the management of resources they create. For
 	instance, an application may be better served by choosing a different
 	rendering method if there is not sufficient resources to efficiently
 	utilize its preferred method.

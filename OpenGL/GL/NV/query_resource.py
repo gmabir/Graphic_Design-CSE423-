@@ -10,9 +10,9 @@ Overview (from the spec)
 	other graphical objects in GPU accessible memory (whether in on-board
 	video memory or addressable system memory is implementation dependent).
 	With more insight into OpenGL's memory usage 1) applications could make
-	educated decisions on better utilizing the limited GPU resources,
+	educated decs on better utilizing the limited GPU resources,
 	2) users could better optimize their workflow when working with multiple
-	tools, and 3) administrators can make better decisions regarding resource
+	tools, and 3) administrators can make better decs regarding resource
 	allocation and system configurations.
 	
 	The purpose of this extension is to return a more detailed breakdown

@@ -122,8 +122,8 @@ class GameProject:
         dx = x2_0 - x1_0
         dy = y2_0 - y1_0
         d = 2 * dy - dx
-        inc_E = 2 * dy
-        inc_NE = 2 * (dy - dx)
+        inc_EAST = 2 * dy
+        inc_NorthEast = 2 * (dy - dx)
         
         y_ptr = y1_0
         glBegin(GL_POINTS)
@@ -132,10 +132,10 @@ class GameProject:
             px, py = self.from_0(x_ptr, y_ptr, z)
             glVertex2i(int(px), int(py))
             if d > 0:
-                d += inc_NE
+                d += inc_NorthEast
                 y_ptr += 1
             else:
-                d += inc_E
+                d += inc_EAST
         glEnd()
 
     # -------------------------------------------------------------------------

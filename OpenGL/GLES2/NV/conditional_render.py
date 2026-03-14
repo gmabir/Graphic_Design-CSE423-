@@ -10,7 +10,7 @@ Overview (from the spec)
 	results of an occlusion query.  This mechanism allows an application to
 	potentially reduce the latency between the completion of an occlusion
 	query and the rendering commands depending on its result.  It additionally
-	allows the decision of whether to render to be made without application
+	allows the dec of whether to render to be made without application
 	intervention.
 	
 	This extension defines two new functions, BeginConditionalRenderNV and
