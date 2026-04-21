@@ -65,7 +65,7 @@ POINTER_FUNCTION_DATA = [
     ('glColorPointeri',  _simple.glColorPointer, _simple.GL_INT, _simple.GL_COLOR_ARRAY_POINTER, 0, 3),
     ('glColorPointers',  _simple.glColorPointer, _simple.GL_SHORT, _simple.GL_COLOR_ARRAY_POINTER, 0, 3),
     ('glColorPointerub', _simple.glColorPointer, _simple.GL_UNSIGNED_BYTE, _simple.GL_COLOR_ARRAY_POINTER, 0, 3),
-    # these data-types are mapped from diff Numeric types
+    # these data-types are mapped from diffNumeric types
     ('glColorPointerb',  _simple.glColorPointer, _simple.GL_BYTE, _simple.GL_COLOR_ARRAY_POINTER, 0, 3),
     ('glColorPointerui', _simple.glColorPointer, _simple.GL_UNSIGNED_INT, _simple.GL_COLOR_ARRAY_POINTER, 0, 3),
     ('glColorPointerus', _simple.glColorPointer, _simple.GL_UNSIGNED_SHORT, _simple.GL_COLOR_ARRAY_POINTER, 0, 3),
@@ -77,7 +77,7 @@ POINTER_FUNCTION_DATA = [
     ('glIndexPointeri',  _simple.glIndexPointer, _simple.GL_INT, _simple.GL_INDEX_ARRAY_POINTER, 1, None),
     ('glIndexPointerub', _simple.glIndexPointer, _simple.GL_UNSIGNED_BYTE, _simple.GL_INDEX_ARRAY_POINTER, 1, None),
     ('glIndexPointers',  _simple.glIndexPointer, _simple.GL_SHORT, _simple.GL_INDEX_ARRAY_POINTER, 1, None),
-    # these data-types are mapped from diff Numeric types
+    # these data-types are mapped from diffNumeric types
     ('glIndexPointerb',  _simple.glIndexPointer, _simple.GL_BYTE, _simple.GL_INDEX_ARRAY_POINTER, 1, None),
 
     ('glNormalPointerd',  _simple.glNormalPointer, _simple.GL_DOUBLE, _simple.GL_NORMAL_ARRAY_POINTER, 1, None),

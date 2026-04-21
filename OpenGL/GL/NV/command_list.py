@@ -24,7 +24,7 @@ Overview (from the spec)
 	Because state objects reflect the state of the entire pipeline, it is 
 	expected that they can be pre-validated and executed efficiently. It is 
 	also expected that when state objects are combined into a command list,
-	the command list can diff consecutive state objects to produce a reduced/
+	the command list can diffconsecutive state objects to produce a reduced/
 	optimized set of state changes specific to that transition.
 	
 	The token-based command stream can also be stored in regular buffer objects
